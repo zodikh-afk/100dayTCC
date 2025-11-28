@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{28cbd44a-b75a-48e8-aae7-5bda00f999a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Essences">
+      <UniqueIdentifier>{6c98bdc7-ce03-4905-96ac-5a6a10dc3c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items\Foods">
+      <UniqueIdentifier>{a5ed7911-ac75-4a8e-bb56-1b9eafe07077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Location">
+      <UniqueIdentifier>{036e261c-fcd1-46b5-a2d6-ca90752e9266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items\Weapons">
+      <UniqueIdentifier>{287718ae-cf2f-4bac-8106-4ca6bbd8cefb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items\Maps">
+      <UniqueIdentifier>{29871216-c366-4cd3-b3bd-8a0fd9b6ac79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items\Water">
+      <UniqueIdentifier>{b85d1ed2-49fe-43c7-964c-311ee3f74586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Essences\Enemies">
+      <UniqueIdentifier>{7253b2f8-533b-4496-88f1-6a1c15eaaf63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Essences\Player">
+      <UniqueIdentifier>{e332062e-0644-45c2-8d15-fa6bf0711caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Essences\BaseEssences">
+      <UniqueIdentifier>{47de7817-1399-460e-b76f-afb5ee8497eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items\BaseItem">
+      <UniqueIdentifier>{e25084c5-4adc-4bf2-aa1c-7e55df201005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Essences\NeutralEssences">
+      <UniqueIdentifier>{a1d1c7ca-45e2-4e3b-a8b7-bf21f003c189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Essences\FriendlyEssences">
+      <UniqueIdentifier>{f866d4f6-e529-458a-9950-668a334e2e76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="100_DayTCC.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectricShocker.cpp">
+      <Filter>Items\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Items\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="TraumaticGun.cpp">
+      <Filter>Items\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="PepperSpray.cpp">
+      <Filter>Items\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Stew.cpp">
+      <Filter>Items\Foods</Filter>
+    </ClCompile>
+    <ClCompile Include="Food.cpp">
+      <Filter>Items\Foods</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Location</Filter>
+    </ClCompile>
+    <ClCompile Include="GasStation.cpp">
+      <Filter>Location</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Location</Filter>
+    </ClCompile>
+    <ClCompile Include="GasStationsMap.cpp">
+      <Filter>Items\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Items\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopsMap.cpp">
+      <Filter>Items\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpeditionItem.cpp">
+      <Filter>Items\BaseItem</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeItem.cpp">
+      <Filter>Items\BaseItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Items\BaseItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>Items\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Essences\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFactory.cpp">
+      <Filter>Essences\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="TCC.cpp">
+      <Filter>Essences\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Essence.cpp">
+      <Filter>Essences\BaseEssences</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Essences\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodWarehouse.cpp">
+      <Filter>Location</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodWarehousesMap.cpp">
+      <Filter>Items\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="StewFactory.cpp">
+      <Filter>Items\Foods</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemFactory.cpp">
+      <Filter>Items\BaseItem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ElectricShocker.h">
+      <Filter>Items\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Items\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="TraumaticGun.h">
+      <Filter>Items\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="PepperSpray.h">
+      <Filter>Items\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>Items\Foods</Filter>
+    </ClInclude>
+    <ClInclude Include="GasStation.h">
+      <Filter>Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Location</Filter>
+    </ClInclude>
+    <ClInclude Include="Stew.h">
+      <Filter>Items\Foods</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Items\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopsMap.h">
+      <Filter>Items\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="GasStationsMap.h">
+      <Filter>Items\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpeditionItem.h">
+      <Filter>Items\BaseItem</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeItem.h">
+      <Filter>Items\BaseItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Items\BaseItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Items\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Essences\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFactory.h">
+      <Filter>Essences\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="TCC.h">
+      <Filter>Essences\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Essence.h">
+      <Filter>Essences\BaseEssences</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Essences\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodWarehouse.h">
+      <Filter>Location</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodWarehousesMap.h">
+      <Filter>Items\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="StewFactory.h">
+      <Filter>Items\Foods</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemFactory.h">
+      <Filter>Items\BaseItem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="100_DayTCC.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
